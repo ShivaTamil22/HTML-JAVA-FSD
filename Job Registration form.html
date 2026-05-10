@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration Form</title>
+    <link rel="icon" href="" >
+</head>
+<body bgcolor="" style="margin: 0; padding: 0; width: 100%; "  >
+    
+    <form>
+    
+    <table align="center" style="width: 100%;" cellpadding="1" cellspacing="1">
+        <tr>
+            <td align="center" style="background-color: #1E3a5f; color: white;">
+                
+                <h1 > JOB REGISTRATION</h1>
+                <p><b> Fill in your detail to apply for a job </b></p>
+            </td>
+        </tr>
+    </table><hr>
+    <table border="1" width="100%" >
+        <tr>
+            <td colspan="4" align="center" style="background-color: #c0d4ec ; color: #1E3a5f;">
+                <h2>PERSONAL INFORMATION</h2>
+            </td>
+        </tr> 
+        <tr>
+            <td>Full Name : </td>
+            <td><input type="text" placeholder="Enter your Full Name"></td>                <td>Date Of Birth : </td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Father's Name : </td>
+            <td><input type="text" placeholder="Enter your Father's Name"></td>
+            <td>Gender : </td>
+            <td>
+                <input type="radio" name="gender" value="Male">Male                    <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="others">Others
+            </td>
+        </tr>
+        <tr>
+            <td>Email Address : </td>               
+            <td><input type="email" placeholder="Enter your Email Address"></td>
+            <td>Phone Number : </td>
+            <td><input type="text" placeholder="Enter your Phone Number" maxlength="10" minlength="10"></td>
+        </tr>
+        <tr>
+            <td rowspan="3">Address : </td>
+            <td colspan="3" rowspan="3"  ><textarea style="width: 100%;" placeholder="Enter your full Address" aria-setsize=""></textarea></td>
+        </tr>
+    </table>
+    <table border="1" width="100%">
+        <tr>
+            <td colspan="4" align="center" style="background-color: #c0d4ec ; color: #1E3a5f;">
+                <h2>EDUCATIONAL QUALIFICATION</h2>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Qualification</b></td>
+            <td><b>Board/university</b></td>                <td><b>Year of Passing</b></td>
+            <td><b>Percentage/CGPA</b></td>
+        </tr>
+        <tr>
+            <td>10TH Grade : </td>
+            <td><input type="text" placeholder="Enter Board/university"></td>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>12TH Grade : </td>
+            <td><input type="text" placeholder="Enter Board/university"></td>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option selected disabled>Graduation</option>
+                    <option>BSC CS</option>
+                    <option>BCA</option>
+                    <option>BE CS</option>
+                    <option>B.TECH</option>
+                </select>
+            </td>
+            <td><input type="text" placeholder="Enter Board/university"></td>
+            <td><input type="date"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+    <table border="1" width="100%">
+        <tr>
+            <td colspan="4" align="center" style="background-color: #c0d4ec ; color: #1E3a5f;">
+                <h2>JOB DETAILS</h2>
+            </td>
+        </tr>
+        <tr>
+            <td>Job Role Applied For : </td>
+            <td>
+                <select>
+                    <option selected disabled>--Select Job Role--</option>
+                    <option>Front End</option>
+                    <option>Back End</option>
+                    <option>Java Developer</option>
+                    <option>React Developer</option>
+                </select>
+            </td>
+            <td>Experirnce : </td>
+            <td><input type="number" placeholder="In months"></td>
+        </tr>
+        <tr>
+            <td>Expected Salary : </td>
+            <td><input type="number" placeholder="Enter Expected Salary "></td>
+            <td>Notice Period : </td>
+            <td><input type="number" placeholder="In months"></td>
+        </tr>
+        <tr>
+            <td>Upload Resume : </td>
+            <td colspan="3"><input type="file" accept=".pdf"></td>
+        </tr>
+    </table>
+        <p align="center">
+            <input type="submit" value="SUBMIT REGISTRATION" style="background-color: rgb(61, 61, 186); color: white;" >
+            <input type="reset" value="RESET FORM" style="background-color: rgb(130, 16, 16); color: white;">
+        </p>    
+        
+    </form>
+    <footer style="background-color: #1E3a5f; color: white;">
+        <h3 align="center">
+            <b>
+                &copy; 2026 Job Portal. All rights reserved.
+            </b>
+        </h3>
+    </footer>
+
+       
+</body>
+</html>
